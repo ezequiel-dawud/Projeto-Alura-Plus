@@ -95,4 +95,46 @@ body {
 
 .descricao__paragrafo{
     color: var(--cinza--secundario);
+    padding-right: 2em;
 }
+
+.secundario__botao{
+    display: inline-block;
+    margin: 1em;
+}
+
+.container__descricao2{
+    padding: 2em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+    color: var(--branco--principal);
+}
+.lista__item{
+    font-size: 2rem;
+    color: var(--branco--principal);
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;  
+}
+
+.lista__link{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--cinza--secundario);
+}
+
